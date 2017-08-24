@@ -1,0 +1,51 @@
+header{
+	width: 100%;/* 通屏效果用100% */
+	height: .77rem;
+	background-color: #1B2026;
+	padding: 0 .24rem;
+}
+.head-top{
+	width: 100%;
+	height: .3rem;
+	background-color: orange;
+}
+.head-top span{
+	font-size: .3rem;
+	display: block;
+	float: left;
+}
+.head-top span:nth-child(3){/* 这种选中方式需要保证短时间内不会变 */
+	float: right;
+}
+.head-top span:nth-child(2){
+	margin-left: .8rem;
+
+}
+#neirong{
+	padding: 0 .24rem;
+}
+#fenlei{
+	width: 100%;
+	height: 1.02rem;
+	background-color: yellowgreen;
+}
+#fenlei li{
+	width: 20%;
+	height: 1.02rem;
+	background-color: #fff;
+	float: left;
+}
+#fenlei li a{
+	display: block;/* 转换a标签，就可以设置大小了 */
+	width: .48rem;
+	height: .48rem;
+	background-color: red;
+	margin: 0 auto;
+}
+#fenlei li span{
+	font-size: .18rem;
+	display: block;
+	text-align: center;
+	line-height: .18rem;
+	margin-top: .36rem;
+}

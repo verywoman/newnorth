@@ -1,0 +1,91 @@
+.box{
+	width: 100%;
+	height: auto;
+	background-color: orange;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:  auto;
+	/* 设置满屏效果 */
+	background-image: url('../img/dneglu-beijing.png');
+	background-size: 100% auto;/* 保证图片不变形，宽高任意一个设置auto，另一个100% */
+	}
+header{
+	width: 100%;
+	height: .88rem;
+	background-color: yellowgreen;
+	padding: 0 .25rem;
+	overflow: hidden;/* 不让他乱动 */
+}
+.head-back{
+	width: .46rem;
+	height: .46rem;
+	background-color: red;
+	margin-top: .21rem;
+	float: left;
+	transform: 
+}
+.head-center{
+	width: 1.9rem;
+	height: .51rem;
+	background-color: red;
+	float: left;
+	margin-top: .185rem;
+	margin-left: 2rem;
+}
+#login{
+	width: 5.25em;
+	height: 5.25em;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-top: 1.75rem;
+	border-radius: .02rem;
+	position: relative;
+	padding-top: .79rem;
+}
+.touxiang{
+	width: 1.55em;
+	height: 1.55em;
+	background-color: orange;
+	border-radius: 50%;
+	position: absolute; 
+	left: 0;
+	right: 0;
+	top: -0.85rem;
+	margin: auto;
+	border: .06rem solid #fff;
+}
+.user-box{
+	width: 4.05em;
+	height: .87em;
+	background-color: #999;
+	margin: 0 auto;
+	margin-bottom: .3rem;
+}
+.user-top{
+	width: 100%;
+	height: .3em;
+	background-color: red;
+}
+.user-bottom{
+	width: 100%;
+	height: .57em;
+	background-color: yellow;
+}
+.userName{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.userMM{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.userMM2{
+	display: block;
+	width: 100%;
+	height: 100%;
+}

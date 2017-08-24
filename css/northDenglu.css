@@ -1,0 +1,207 @@
+.box{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:  auto;
+	background-image: url('../img/DL-beijng.png');
+	background-size: 100% auto;
+}
+header{
+	width: 100%;
+	height: .88em;
+	padding: 0 .24rem;
+	overflow: hidden;
+}
+.fanhui{
+	width: .4em;
+	height: .4em;
+	display: block;
+	margin-top: .22rem;
+	float: left;
+}
+.zhuce{
+	width: 1em;
+	height: .34em;
+	float: right;
+	margin-top: .25rem;
+	border: .03rem solid #f2d73d;
+	border-radius: .2rem;
+}
+.zhuce span{
+	font-family: "苹方","微软雅黑";
+	font-size: .24rem;
+	color: #f2d73d;
+	display: block;
+	margin-top: -.03rem;
+	margin-left: .25rem;
+}
+#baidi{
+	width: 5.82em;
+	height: 7.5em;
+	background-color: #fff;
+	border-radius: .1rem;
+	margin: 0 auto;
+	margin-top: 1.85rem;
+	position: relative;
+	padding-top: 1.86rem;
+}
+.touxiang{
+	width: 2.24em;
+	height: 1.8em;
+	position: absolute;
+	top: -.86rem;
+	left: 1.79rem;
+}
+.biaoti{
+	width: 1.32em;
+	height: .16em;
+	position: absolute;
+	top: 1.04rem;
+	left: 2.26rem;
+}
+/* .bolang{
+	width: 100%;
+	height: 2.25em;
+	background-color: red;
+	padding-bottom: 0;
+} */
+.userBox{
+	width: 4.96em;
+	height: .56em;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: .44rem;
+}
+.user-left{
+	width: .56em;
+	height: .56em;
+	float: left;
+}
+.user-right{
+	width: 4.21em;
+	height: .56em;
+	float: right;
+	position: relative;
+}
+.user-right input{
+	position: absolute;
+	top: .18rem;
+	left: .38rem;
+	display: block;
+	border: 0;
+	outline: none;
+	background-color: #FAF9F9;
+	font-size: .24rem;
+	font-family: "苹方 粗体","";
+	color: #cccccc;
+}
+.passwordBox{
+	width: 4.96em;
+	height: .56em;
+	margin: 0 auto;
+	display: block;
+}
+.password-left{
+	width: .56em;
+	height: .56em;
+	float: left;
+}
+.password-right{
+	width: 4.21em;
+	height: .56em;
+	float: right;
+	position: relative;
+}
+.password-right input{
+	position: absolute;
+	top: .18rem;
+	left: .38rem;
+	display: block;
+	border: 0;
+	outline: none;
+	background-color: #FAF9F9;
+	font-size: .24rem;
+	font-family: "苹方 粗体","";
+	color: #cccccc;
+}
+.passwordGW{
+	width: 3.95rem;
+	height: .2em;
+	margin-top: .12rem;
+	/* float: right; */
+	margin-left: 1.3rem;
+}
+.anniu{
+	width: 2.06em;
+	height: .7em;
+	border-radius: .35rem;
+	background-color: #565656;
+	margin: 0 auto;
+	margin-top: .32rem;
+	overflow: hidden;
+}
+.dian{
+	width: .06em;
+	height: .06em;
+	background-color: #fff;
+	border-radius: 50%;
+	margin-top: .37rem;
+	margin-left: .14rem; 
+	float: left;
+}
+.dianright{
+	width: .06em;
+	height: .06em;
+	background-color: #fff;
+	border-radius: 50%;
+	margin-top: .37rem;
+	margin-right: .14rem;
+	float: right;
+}
+.wenzi{
+	width: 1.14em;
+	height: .46em;
+	margin: 0 auto;
+	display: block;
+	margin-top: .12rem;
+	position: relative;
+}
+.DLanniu{
+	position: absolute;
+	top: 0;
+	left: .57rem;
+}
+.bolang{
+	width: 5.82em;
+	height: 2.24em;
+	margin-top: .5rem;
+	border-radius: .1rem;
+	overflow: hidden;
+}
+.wangji{
+	font-family: "苹方","微软雅黑";
+	font-size: .20rem;
+	color: #b9b9b9;
+	display: block;
+	margin-top: -.03rem;
+	margin-left: .25rem;
+	float: right;
+}
+.passwordGW input{
+	display: block;
+	float: left;
+}
+.jizhu{
+	font-family: "苹方","微软雅黑";
+	font-size: .20rem;
+	color: #b9b9b9;
+	display: block;
+	margin-top: -.03rem;
+	margin-left: .08rem;
+	float: left;
+
+}
